@@ -1,7 +1,8 @@
 # Dragsim Addons
 #### Quickstart Guide:
-&nbsp;&nbsp;&nbsp;&nbsp;Use '/ct import dragsimaddons' (Once it is approved :D)\
-&nbsp;&nbsp;&nbsp;&nbsp;Use '/dsa help' to view available commands
+&nbsp;&nbsp;&nbsp;&nbsp;Use '/ct import dragsimaddons\
+&nbsp;&nbsp;&nbsp;&nbsp;Use '/dsa help' to view available commands\
+&nbsp;&nbsp;&nbsp;&nbsp;Alternatively, the source is in the DragSimAddons folder, just download and extract the Zip file in Releases.
 ## Non-Exhaustive feature list:
 &nbsp;&nbsp;&nbsp;&nbsp;Customizable Lootnum formatting\
 &nbsp;&nbsp;&nbsp;&nbsp;Zealot Tracker with Uncertainty Calculation\
