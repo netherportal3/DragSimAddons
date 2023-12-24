@@ -23,7 +23,7 @@ netherportal3(#0)
 &nbsp;&nbsp;&nbsp;&nbsp;Updated README/Description :D
 ### v2.1.0 - 12/24/2023 at 3:32AM EST
 &nbsp;&nbsp;&nbsp;&nbsp;Fixed a typo in the '/help' message\
-&nbsp;&nbsp;&nbsp;&nbsp;Added GUI using Vigilance (https://www.chattriggers.com/modules/v/Vigilance)\
+&nbsp;&nbsp;&nbsp;&nbsp;Added GUI using Vigilance (https://www.chattriggers.com/modules/v/Vigilance) \
 &nbsp;&nbsp;&nbsp;&nbsp;Added toggles for most features.\
 &nbsp;&nbsp;&nbsp;&nbsp;Removed PogData requirement\
 &nbsp;&nbsp;&nbsp;&nbsp;Added Backstab Hider\
