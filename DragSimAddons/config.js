@@ -90,9 +90,7 @@ class Settings {
 
     constructor() {
         this.initialize(this);
-        this.setCategoryDescription("General", "shows... cool stuff :)")
-        this.setSubcategoryDescription("General", "Category", "Shows off some nifty property examples.")
-
+        
         this.setCategoryDescription("Chat Tools", "Chat-Based Tools")
         this.setSubcategoryDescription("Chat Tools", "LootNum Hider", "LootNum Hider settings")
         this.setSubcategoryDescription("Chat Tools", "Misc. Antispam", "Some miscellanious anti-spam features")
