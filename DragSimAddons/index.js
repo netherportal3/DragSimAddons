@@ -16,7 +16,7 @@ register("chat", (message, event) => {
         const lootNum = parseFloat(match[1]);
         const multiplier = parseFloat(match[2]);
         const roundedMultiplier = (multiplier * 100).toFixed(2);
-        if (dragLootNumCheck && dragLootNumHiderOverride) {
+        if (dragLootNumCheck && Settings.dragLootNumHiderOverride) {
           dragLootNumCheck = false
           ChatLib.chat("&f[&6DSA&f] &4[&cDragon&4] &a♣&c" + lootNum + "  &6(&b✯" + roundedMultiplier + "&6)")
         } else {
