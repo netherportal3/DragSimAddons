@@ -58,5 +58,6 @@ register("chat", (message, event) => {
 
 
 register("command", (...arguments) => { //this works fine, but vscode doesn't like '...arguments'
-  Settings.openGUI()
+    Settings.openGUI()
 }).setName("dsa").setAliases("dragsimaddons");
+    
