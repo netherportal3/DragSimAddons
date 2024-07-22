@@ -13,30 +13,48 @@ class Settings {
 
     @SwitchProperty({
         name: 'Backstab Hider',
-        description: "Toggles the Livid Dagger's Backstab messages.",
+        description: "Hides the Livid Dagger's Backstab messages.",
         category: 'Chat Tools',
         subcategory: 'Misc. Antispam',
         placeholder: 'Activate',
     })
-    lividDaggerSpam = false;
+    lividDaggerSpam = true;
+
+    @SwitchProperty({
+        name: 'Booster Hider',
+        description: "Hides the network booster messages.",
+        category: 'Chat Tools',
+        subcategory: 'Misc. Antispam',
+        placeholder: 'Activate',
+    })
+    boosterAntispam = false;
 
     @SwitchProperty({
         name: 'Fireball Title',
         description: "Toggles notifying the player during fireballs.",
-        category: 'WIP',
+        category: 'Titles',
         subcategory: 'Notifiers',
         placeholder: 'Activate',
     })
     fireballVar = false;
 
     @SwitchProperty({
-        name: 'Fireball Dragon Locator &f(&cBROKEN&f)',
-        description: "Adds location data to the fireball title.",
-        category: 'WIP',
+        name: 'Endstone Protector Title',
+        description: "Toggles notifying the player when the Endstone Protector spawns.",
+        category: 'Titles',
         subcategory: 'Notifiers',
         placeholder: 'Activate',
     })
-    dragonLocator = false;
+    endstoneTitle = false;
+
+    @SwitchProperty({
+        name: 'Dragon Spawn Timer',
+        description: "Toggles the dragon spawn timer.",
+        category: 'Titles',
+        subcategory: 'Notifiers',
+        placeholder: 'Activate',
+    })
+    dragonTimer = false;
 
     @SwitchProperty({
         name: 'Auto-Debug Enabler',
@@ -54,7 +72,7 @@ class Settings {
         subcategory: 'Misc. Antispam',
         placeholder: 'Activate',
     })
-    magicWeaponHiderVar = true;
+    magicWeaponHiderVar = false;
 
     @SwitchProperty({
         name: 'Summoning Eye Tracker',
@@ -71,10 +89,10 @@ class Settings {
         category: 'Chat Tools',
         subcategory: 'LootNum Hider',
         minF: 0.0,
-        maxF: 10.0,
-        decimalPlaces: 2,
+        maxF: 5.0,
+        decimalPlaces: 4,
     })
-    lootNumLowerValue = 5.0;
+    lootNumLowerValue = 1.0;
 
     @SwitchProperty({
         name: 'Dragon LootNum Hider',
@@ -85,22 +103,31 @@ class Settings {
     })
     dragLootNumHiderOverride = true;
 
+    @SwitchProperty({
+        name: 'Endstone Protector LootNum Hider',
+        description: "Override LootNum Hider on Endstone Protector Kills \n&a(Strongly Recommended)",
+        category: 'Chat Tools',
+        subcategory: 'LootNum Hider',
+        placeholder: 'Activate',
+    })
+    endstoneLootNumOverride = true;
+
     
 
 
     constructor() {
         this.initialize(this);
-        
+
         this.setCategoryDescription("Chat Tools", "Chat-Based Tools")
         this.setSubcategoryDescription("Chat Tools", "LootNum Hider", "LootNum Hider settings")
         this.setSubcategoryDescription("Chat Tools", "Misc. Antispam", "Some miscellanious anti-spam features")
         this.setSubcategoryDescription("Chat Tools", "Auto-Debug Enabler", "Features for Auto-Enabling /debug")
         this.setSubcategoryDescription("Chat Tools", "Eye Tracker", "Features for tracking Summoning Eyes")
 
-
-        this.setCategoryDescription("WIP", "&cWork-In-Progress tools, probably won't function correctly.")
-        this.setSubcategoryDescription("WIP", "Notifiers", "Notifiers for events")
+        this.setCategoryDescription("Titles", "Features that render text.")
+        this.setSubcategoryDescription("Titles", "Notifiers", "Notifiers for events")
 
     }
 }
+
 export default new Settings();
