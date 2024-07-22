@@ -14,7 +14,7 @@
 
 ## Support:
 Contact me on Discord if you have any issues or suggestions!  
-netherportal3
+Username: netherportal3
 
 ## Todo:
 - Golem Counter HUD
