@@ -22,14 +22,19 @@ _got_termed#0_
 - Pet Display HUD (Not coming soon™)
 
 ## Changelog
-
-### v2.3.0 - 02/05/2023 at 8:20PM EST
+### v3.0.0 - 07/22/2024 at 2:30PM EST
+- New Features:
+  - Golem Title!
+  - Dragon Spawn Timer
+  - Better specific-scenario LootNumHider formatting
+  - Redesigned GUI
+### v2.3.0 - 02/05/2024 at 8:20PM EST
 - New Features:
   - Fireball Title working!
 - Fixes and Changes:
   - Fixed a bug that disabled the LootNum hider involuntarily
     
-### v2.2.0 - 02/05/2023 at 10:33PM EST
+### v2.2.0 - 02/05/2024 at 10:33PM EST
 - New Features:
   - Added toggles for most features.
 - Fixes and Changes:
